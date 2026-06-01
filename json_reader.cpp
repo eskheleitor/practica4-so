@@ -27,7 +27,7 @@ vector<Capture> leerJson(const string& nombreArchivo)//en el main cuando se teng
     {
         Capture captura;
         captura.id=capturaJson["id"];
-        captura.matrix=capturaJson["matrix"].get<vector<vector<int>>>();
+        captura.matriz=capturaJson["matrix"].get<vector<vector<int>>>();
         capturas.push_back(captura);
     }
 
