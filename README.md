@@ -1,3 +1,4 @@
+//enlace a github:https://github.com/eskheleitor/practica4-so/edit/main/README.md
 # Práctica 4 - Procesamiento e Interpolación de Imagenes 
 
 # Descripción
