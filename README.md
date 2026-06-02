@@ -4,29 +4,30 @@
 
 Esta practica consiste en el desarrollo de un sistema distribuido utilizando C++   y Python para el procesamiento de información tactil procedente de un sensor robotico.
 
-El sistema es capaz de leer capturas almacenadas en formato JSON, validar las matrices recibidas, aplicar interpolación bilineal para aumentar su resolución y generar imágenes que representan la distribución de presión detectada.
+El sistema es capaz de leer capturas almacenadas en formato JSON,  validar las matrices recibidas, aplicar interpolación bilineal para aumentar su resolución y generar imágenes que representan la distribución de presión detectada.
 
 # Estructura del proyecto
 
 ``` text
 practica4-so
 │
-├── main.cpp
-├── json_reader.h
-├── json_reader.cpp
-├── matrix_validator.h
-├── matrix_validator.cpp
-├── interpolation.h
-├── interpolation.cpp
-├── http_client.h
-├── http_client.cpp
-├── tactile_captures_50.json
+|-- main.cpp
+|-- json_reader.h
+|-- json_reader.cpp
+|-- matrix_validator.h
+|-- matrix_validator.cpp
+|-- interpolation.h
+|-- interpolation.cpp
+|-- http_client.h
+|-- http_client.cpp
+|-- tactile_captures_50.json
+|--INFORME_PRACTICA_4_.pdf
 │
-├── python_server
-│   ├── server.py
-│   └── requirements.txt
+|-- python_server
+│   ├--server.py
+│   └--requirements.txt
 │
-└── imagenes_generadas
+└-- imagenes_generadas
 ```
 
 # Funcionamiento
