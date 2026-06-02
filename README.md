@@ -1,14 +1,14 @@
-## Práctica 4 - Procesamiento e Interpolación de Imagenes 
+# Práctica 4 - Procesamiento e Interpolación de Imagenes 
 
-# Descripción
+## Descripción
 
-Esta práctica consiste en el desarrollo de un sistema distribuido utilizando C++ y Python para el procesamiento de información tactil procedente de un sensor robotico.
+Esta practica consiste en el desarrollo de un sistema distribuido utilizando C++   y Python para el procesamiento de información tactil procedente de un sensor robotico.
 
-El sistema es capaz de leer capturas almacenadas en formato JSoN, validar las matrices recibidas, aplicar interpolación bilineal para aumentar su resolución y generar imágenes que representan la distribución de presión detectada.
+El sistema es capaz de leer capturas almacenadas en formato JSON, validar las matrices recibidas, aplicar interpolación bilineal para aumentar su resolución y generar imágenes que representan la distribución de presión detectada.
 
- # Estructura del proyecto
+## Estructura del proyecto
 
-
+``` text
 practica4-so
 │
 ├── main.cpp
